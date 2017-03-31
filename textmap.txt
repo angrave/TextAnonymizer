@@ -1,0 +1,20 @@
+# Text Replacer
+# Initial version by Lawrence Angrave (angrave@illinois.edu) March 29, 2017.
+# lines in this file that start with a hash # character, or are empty are ignored
+# Other lines contain words. Words can be separated by spaces or commas or tabs. 
+# The last word is the replacement text that can be substitued for one or more of the words.
+# Words that a single letter are ignored (and will not be substited if by themselves)
+# Using the data below the example below "bertrand" "Russel Bertrand" "Bertrand Russel" and "berty" would all be replaced with 1234568
+# Mary is harder (there are two) - so mary would be replaced with [[[1234561,1234562]]]
+# Only complete words will be matched in the source document. So Tom but not "Atom" or "Tomato"
+
+
+Illinois	1234560
+Tom,1234569
+mary a. smith 1234561
+Mary R clarke,1234562
+Bertrand Russel	1234568
+Berty 1234568
+brussel@gm.com brussel@yahu.com 1001
+
+
