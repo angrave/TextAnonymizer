@@ -45,8 +45,8 @@ Tom,tom!  tom  , tom's Tom;tom
 But Atom and tomato and aToms should not be replaced nor stom
 ````
 
-Run the script by including the filename (or full filepath) of the original text file. The program looks for the textmap file is in the same directory as this original text file.
-In the example below we've already used "cd" to navigate to the directory that includes the original text file, the textmap and textanonymizer.
+Run the script by including the filename (or full filepath) of the original text file. The program looks for the textmap file in the same directory as this original text file.
+In the example below we've already used "cd" to navigate to the directory that includes the original text file, the textmap and textanonymizer program.
 
 ````
 python textanonymizer.py example.html` 
